@@ -1,7 +1,9 @@
 name: VoxelTab
 main: com.thevoxelbox.VoxelTab
 version: 1.0
-author: Drew
+author: [Drew]
+description: >
+             Color your players names in the TAB menu!
 description: Simple Plugin allowing early Tab coloring.
 permissions:
   VoxelTab.a:
