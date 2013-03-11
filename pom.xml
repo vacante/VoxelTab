@@ -4,12 +4,12 @@
     
         <groupId>com.thevoxelbox</groupId>
         <artifactId>VoxelTab</artifactId>
-        <version>1.0 SnapShot</version>
+        <version>1.0</version>
         <packaging>jar</packaging>
     
         <name>VoxelTab</name>
         <description>Color your players names in the TAB menu</description>
-        <url>www.voxelwiki.com</url>
+        <url>https://github.com/vacante/VoxelTab</url>
     
         <scm>
                 <url>https://github.com/vacante/VoxelTab</url>

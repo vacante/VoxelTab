@@ -6,10 +6,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
+
 /*
  * @Author Drew
- * 
- * 
  * 
  * @TheVoxelBox
  */
@@ -38,11 +37,11 @@ public void run() {
   public void loadFactorySettings() {
 	  getConfig().getString("reset", "no");
 	    log("| ========================================== |");
-	    log("| * VoxelTab                             |");
+	    log("| * VoxelTab                                 |");
 	    log("| *                                          |");
-	    log("| * Basic Tab Based coloring plugin  |");
+	    log("| * Basic Tab Based coloring plugin          |");
 	    log("| *                                          |");
-	    log("| * Drew and VoxelPlugineering    |");
+	    log("| * Drew and VoxelPlugineering               |");
 	    log("| ========================================== |");
 	    log("Factory settings loaded");
 	  }

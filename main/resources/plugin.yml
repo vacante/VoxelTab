@@ -1,10 +1,10 @@
-name: VoxelTab
-main: com.thevoxelbox.VoxelTab.VoxelTab
-author: Drew, VoxelPlugineering
-version: 1.0
-website: https://github.com/vacante/VoxelTab
-description: >
-             Color your players names in the TAB menu!
+name: ${project.name}
+main: com.thevoxelbox.voxeltab.VoxelTab
+author: [Drew]
+authors: [VoxelPlugineering]
+version: ${project.build.version}
+website: ${project.url}
+description: ${project.description}
 permissions:
   VoxelTab.a:
     description: Gives the player a colored name.
