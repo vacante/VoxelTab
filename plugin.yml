@@ -1,0 +1,54 @@
+name: VoxelTab
+main: com.thevoxelbox.VoxelTab
+version: 1.0
+author: Drew
+description: Simple Plugin allowing early Tab coloring.
+permissions:
+  VoxelTab.a:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.b:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.c:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.d:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.e:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.f:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.0:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.1:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.2:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.3:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.4:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.5:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.6:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.7:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.8:
+    description: Gives the player a colored name.
+    default: false
+  VoxelTab.9:
+    description: Gives the player a colored name.
+    default: false
