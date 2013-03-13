@@ -1,7 +1,6 @@
 name: ${project.name}
 main: com.thevoxelbox.voxeltab.VoxelTab
-author: [Drew]
-authors: [VoxelPlugineering]
+author: [Drew, VoxelPlugineering]
 version: ${project.build.version}
 website: ${project.url}
 description: ${project.description}
