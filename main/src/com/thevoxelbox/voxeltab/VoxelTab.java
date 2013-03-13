@@ -15,14 +15,44 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class VoxelTab extends JavaPlugin
   implements Listener
 {
-@Override
-public void onEnable()
+	public void onEnable()
+	  {
+	    loadConfig();
+	    getServer().getPluginManager().registerEvents(this, this);
+	    System.out.println("VoxelTab Loaded");
+	    System.out.printIn("| ========================================== |");
+	    System.out.printIn("| * VoxelTab                                 |");
+	    System.out.printIn("| *                                          |");
+	    System.out.printIn("| * Basic Tab Based coloring plugin          |");
+	    System.out.printIn("| *                                          |");
+	    System.out.printIn("| * Drew and VoxelPlugineering               |");
+	    System.out.printIn("| ========================================== |");
+	    System.out.printIn("Factory settings loaded");
+	  }
+	  }
+
+	public void onDisable()
+	  {
+	    System.out.println("VoxelTab has been disabled");
+	    System.out.println("VoxelTab Unloaded");
+	    System.out.printIn("| ========================================== |");
+	    System.out.printIn("| * VoxelTab                                 |");
+	    System.out.printIn("| *                                          |");
+	    System.out.printIn("| * Basic Tab Based coloring plugin          |");
+	    System.out.printIn("| *                                          |");
+	    System.out.printIn("| * Drew and VoxelPlugineering               |");
+	    System.out.printIn("| ========================================== |");
+	    System.out.printIn("Factory settings Unloaded");
+	  }
+	
+	@Override
+	public void onEnable()
   {
     getServer().getPluginManager().registerEvents(this, this);
     getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable()
     {
-@Override
-public void run() {
+    @Override
+    public void run() {
         for (Player player : VoxelTab.this.getServer().getOnlinePlayers())
           VoxelTab.this.updateName(player);
       }
@@ -34,18 +64,7 @@ public void run() {
   public void onPlayerJoin(PlayerJoinEvent event) {
     updateName(event.getPlayer());
   }
-  public void loadFactorySettings() {
-	  getConfig().getString("reset", "no");
-	    log("| ========================================== |");
-	    log("| * VoxelTab                                 |");
-	    log("| *                                          |");
-	    log("| * Basic Tab Based coloring plugin          |");
-	    log("| *                                          |");
-	    log("| * Drew and VoxelPlugineering               |");
-	    log("| ========================================== |");
-	    log("Factory settings loaded");
-	  }
-  
+
   public static void log(String str) {
     log(str);
   }
