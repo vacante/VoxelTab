@@ -26,7 +26,7 @@ public class VoxelTab extends JavaPlugin
 	    System.out.print("| ========================================== |");
 	    System.out.print("| * VoxelTab                                 |");
 	    System.out.print("| *                                          |");
-	    System.out.print("| * Basic Tab Based coloring plugin          |");
+	    System.out.print("| * Basic Tab coloring plugin          |");
 	    System.out.print("| *                                          |");
 	    System.out.print("| * Drew and VoxelPlugineering               |");
 	    System.out.print("| ========================================== |");
@@ -40,7 +40,7 @@ public class VoxelTab extends JavaPlugin
 	    System.out.print("| ========================================== |");
 	    System.out.print("| * VoxelTab                                 |");
 	    System.out.print("| *                                          |");
-	    System.out.print("| * Basic Tab Based coloring plugin          |");
+	    System.out.print("| * Basic Tab coloring plugin          |");
 	    System.out.print("| *                                          |");
 	    System.out.print("| * Drew and VoxelPlugineering               |");
 	    System.out.print("| ========================================== |");
